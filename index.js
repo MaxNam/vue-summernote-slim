@@ -1,7 +1,7 @@
-import $ from 'jquery'
-import summernote from './node_modules/summernote/dist/summernote-lite'
-import './node_modules/summernote/dist/summernote-lite.css'
-import './index.css'
+var $ = require('jquery')
+var summernote = require('summernote/dist/summernote-lite.js')
+require('summernote/dist/summernote-lite.css')
+require('./index.css')
 
 export default {
   install (Vue, options) {
