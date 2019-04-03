@@ -8,22 +8,22 @@
   font-size: 1.42857143rem;
   line-height: 1.28571429em;
   font-weight: 700;
-  .note-modal-header {
-    padding: 10px 20px;
-    border-top-right-radius: .28571429rem;
-    border-top-left-radius: .28571429rem;
-    .close {
-      margin-top: 0;
-    }
-  }
-  .note-modal-footer {
-    height: auto;
-    background: #f9fafb;
-    padding: 1rem 1rem;
-    border-top: 1px solid rgba(34,36,38,.15);
-    text-align: right;
-    overflow: hidden;
-    border-bottom-right-radius: .28571429rem;
-    border-bottom-left-radius: .28571429rem;
-  }
+}
+.note-modal-content .note-modal-header {
+  padding: 10px 20px;
+  border-top-right-radius: .28571429rem;
+  border-top-left-radius: .28571429rem;
+}
+.note-modal-content .note-modal-header .close {
+  margin-top: 0;
+}
+.note-modal-content .note-modal-footer {
+  height: auto;
+  background: #f9fafb;
+  padding: 1rem 1rem;
+  border-top: 1px solid rgba(34,36,38,.15);
+  text-align: right;
+  overflow: hidden;
+  border-bottom-right-radius: .28571429rem;
+  border-bottom-left-radius: .28571429rem;
 }
